@@ -11,6 +11,9 @@ html {
   --content-padding: 1rem;
   --wordmark-size-max: 4rem;
   --wordmark-size-min: 1.5rem;
+
+  /* Always reserve space for scrollbar on desktop */
+  scrollbar-gutter: stable;
 }
 
 body {
