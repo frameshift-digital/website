@@ -341,3 +341,10 @@ h1, h2, h3, h4, h5, h6 {
 .partners img:hover {
   opacity: 1;
 }
+
+/* Post date */
+.post-date {
+  color: var(--jade-green);
+  display: block;
+  margin-bottom: 0.5rem;
+}
