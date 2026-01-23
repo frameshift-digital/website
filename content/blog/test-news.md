@@ -5,8 +5,6 @@ title = 'Frameshift Announces Revolutionary AI-Powered Data Analytics Platform'
 tags = ['news', 'product-launch', 'ai']
 +++
 
-# Frameshift Announces Revolutionary AI-Powered Data Analytics Platform
-
 We're excited to announce the launch of our next-generation analytics platform that's set to transform how organizations understand and leverage their data. After three years of intensive research and development, we're ready to share what we believe is the most advanced analytics solution available today.
 
 ## Breaking New Ground in Data Intelligence

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "WebFetch(domain:www.raptorfintech.com)"
+    ]
+  }
+}

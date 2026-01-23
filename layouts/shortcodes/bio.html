@@ -1,0 +1,13 @@
+<div class="bio">
+  <div class="bio-photo">
+    {{ with .Get "photo" }}
+      <img src="{{ . }}" alt="{{ $.Get "name" }}">
+    {{ else }}
+      {{ substr (.Get "name") 0 1 }}
+    {{ end }}
+  </div>
+  <div class="bio-content">
+    <h2>{{ .Get "name" }}</h2>
+    <p>{{ .Inner | markdownify }}</p>
+  </div>
+</div>
