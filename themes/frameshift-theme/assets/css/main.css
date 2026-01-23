@@ -104,7 +104,7 @@ main {
   grid-area: content;
   min-width: 0; /* Allow shrinking below content size */
   word-wrap: break-word;
-  padding: 0 var(--content-padding);
+  padding: 1.5rem var(--content-padding) 0 var(--content-padding);
   text-align: justify;
 }
 
@@ -210,6 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-columns: 120px 1fr;
   gap: 1.5rem;
   margin-bottom: 2.5rem;
+  align-items: center;
 }
 
 .bio-photo {
@@ -232,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bio-content h2 {
-  margin: 0 0 0.5rem 0;
+  margin: 0.3rem 0 0.5rem 0;
   color: var(--imperial-yellow);
 }
 
