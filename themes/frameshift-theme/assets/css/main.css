@@ -278,14 +278,11 @@ h1, h2, h3, h4, h5, h6 {
   50%, 100% { transform: translateX(-50px); }
 }
 
-@keyframes move-b-vertical {
-  0% { transform: translateY(0); }
-  50%, 100% { transform: translateY(40px); }
-}
-
-@keyframes move-b-horizontal {
-  0% { transform: translateX(0); }
-  50%, 100% { transform: translateX(50px); }
+@keyframes merge-flash {
+  0%, 45% { opacity: 0; transform: scale(0.7); }
+  50% { opacity: 0.6; transform: scale(1.1); }
+  65% { opacity: 0.3; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.9); }
 }
 
 @keyframes move-c {
@@ -306,10 +303,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .stream-a .packet { animation: move-a 800ms ease-out infinite; }
-.stream-b-horizontal .packet { animation: move-b-horizontal 800ms ease-out infinite; }
-.stream-b-vertical .packet { animation: move-b-vertical 800ms ease-out infinite; }
 .stream-c .packet { animation: move-c 800ms ease-out infinite; }
 .stream-out .packet { animation: move-out 800ms ease-out infinite; }
+
+.merge-flash {
+  animation: merge-flash 800ms ease-out infinite;
+  transform-origin: center;
+}
 
 .logo-group {
   animation: logo-pulse 800ms ease-out infinite;
